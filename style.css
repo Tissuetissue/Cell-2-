@@ -1,0 +1,99 @@
+.hero{
+width:100%;
+height:100%;
+position:fixed;
+display:flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+
+nav{
+width: 100%;
+position:absolute;
+top:0;
+left:0;
+display:flex;
+align-items: center;
+justify-content: safe;
+}
+
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    margin-left: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    background-color:rgb(0, 149, 255);
+    Border:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px ;
+    border-radius: 2.5px;
+    border-radius: 125px;
+    color:aliceblue;
+    Font-size:15;
+    Font-weight:bold;
+    margin-left:5px;
+    cursor:pointer;
+    transition: box-shadow 0.15s;
+    vertical-align:top;
+    font-family:roboto;
+}
+
+nav ul li a:hover{
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.568);
+opacity:0.8;
+}
+
+.cell{
+width:250px;
+height:250px; 
+ margin-top: 25px;
+ margin-left:7px;
+ position:absolute;
+ z-index: 2;
+ display:inline;
+
+}
+
+.cell:hover{
+   opacity:0.7;
+   cursor:pointer;
+   transition: 1.5s;
+
+}
+
+.title{
+    font-size:85px;
+    color:#fff;
+    font-weight: 100;
+margin-bottom: 350px;
+    z-index: 1;
+}
+
+.background{
+    position:absolute;
+    z-index:-1 ;
+    height:1000px;
+    display:inline;
+    
+}
+
+.white{
+    display:flex;
+    margin:none;
+    padding:none;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+}
